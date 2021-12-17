@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Switch>
-      <Route exact path="/about"><About /></Route>   
+      <Route exact path="/"><About /></Route>   
     </Switch>
      
     </>
