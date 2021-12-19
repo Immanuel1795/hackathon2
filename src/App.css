@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #b5fac7;
+    overflow: 'scroll' !important
+  }
+  
+
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pizza-card{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+    gap: 15px;
+    padding: 5px;
+    justify-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .13);
+}
+
+
+.cart{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin: 15px;
+}
+
+.header1{
+  font-family: 'Lora', serif;
+}
+
+.para-text{
+  font-family: 'Play', sans-serif;
+  font-size: large;
+}
+
+.about{
+  margin: 10px;
+}
+
+
